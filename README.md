@@ -26,6 +26,11 @@
 	}
 </pre>
 
+<p>clone下来后,进入captureWeixin目录，直接安装使用：</p>
+<pre>
+	npm install
+</pre>
+
 <p>发送请求使用的是NodeJS request模块, 安装request模块:</p>
 <pre>
 	npm install request
