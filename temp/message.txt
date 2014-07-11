@@ -1,0 +1,368 @@
+<div class="results mt7">
+	
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt69qg4swOidJFRxEeC_789Q" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt69qg4swOidJFRxEeC_789Q',event,this);return true;" id="sogou_vr_11002301_box_0" uigs="sogou_vr_11002301_box_0">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt69qg4swOidJFRxEeC_789Q" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5VzhxAYXib0OiaicTGnXic3PgIpHQypDQuyCBpMLeOxt5gGg/0/0'"></div>
+<div class="txt-box">
+<h3><em>银行</em>家园</h3>
+<h4>
+<span>微信号：bankbbs2013</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">热点、简讯、文章,点线面结合天天推送.<em>银行</em>家园,致力打造最环保、最接地气的财经资讯公众平台.期待您的关注!</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由厦门市银行家园网络科技有限公司提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MzA4NjEzMjUxMg==&amp;mid=201044811&amp;idx=1&amp;sn=ca6a107259286df0e271190780436071&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_0">金简资讯【2014年7月11日】</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt69qg4swOidJFRxEeC_789Q" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5VzhxAYXib0OiaicTGnXic3PgIpHQypDQuyCBpMLeOxt5gGg/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/wEwRHkvEa3UUh1p9nxnk"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFtxL_noQnwA8o2TRHz9xradA" target="_blank" onclick="gotourl('/gzh?openid=oIWsFtxL_noQnwA8o2TRHz9xradA',event,this);return true;" id="sogou_vr_11002301_box_1" uigs="sogou_vr_11002301_box_1">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtxL_noQnwA8o2TRHz9xradA" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4dXw5De0AmRXqVFwYicqjNWYS5jGqfYZglGnia1MNAWa6g/0/0'"></div>
+<div class="txt-box">
+<h3><em>银行</em>通</h3>
+<h4>
+<span>微信号：bankstong</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">我的金融助手!</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">来自腾讯微博认证资料:广州七七八二信息科技公司银行通官方微博 @银行通</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MTA2Nzk0NA==&amp;mid=200328100&amp;idx=1&amp;sn=815e9fe23212b0335f3867dbb83416b1&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_1">财政部央行15日招标500亿国库现金定存</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtxL_noQnwA8o2TRHz9xradA" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4dXw5De0AmRXqVFwYicqjNWYS5jGqfYZglGnia1MNAWa6g/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/yHV5dj3EWgMlhywVnyDs"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt5gGX6cEoID-EANJWDFZ6U8" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt5gGX6cEoID-EANJWDFZ6U8',event,this);return true;" id="sogou_vr_11002301_box_2" uigs="sogou_vr_11002301_box_2">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt5gGX6cEoID-EANJWDFZ6U8" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM56ZcGbJ6PEPdkic8g6JPaCEW3uRKXMvpynuT8b7NDMWww/0/0'"></div>
+<div class="txt-box">
+<h3>交通<em>银行</em>微<em>银行</em></h3>
+<h4>
+<span>微信号：Bank-95559</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">给您带来交通<em>银行</em>最新信息,让你随时了解各种优惠活动.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">交通银行为您打造融合客户服务与基本业务的微银行</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MTk4NjI0Mg==&amp;mid=205767141&amp;idx=1&amp;sn=ffbfb8e2fb389a994a42b6828a60153a&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_2">跟着萌爸萌娃去旅行~50个时尚旅行箱任你抢</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt5gGX6cEoID-EANJWDFZ6U8" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM56ZcGbJ6PEPdkic8g6JPaCEW3uRKXMvpynuT8b7NDMWww/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/onVkayvEMBVPhzoInyCG"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt_d9D4qx6Bl534dSuRoL-nU" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt_d9D4qx6Bl534dSuRoL-nU',event,this);return true;" id="sogou_vr_11002301_box_3" uigs="sogou_vr_11002301_box_3">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt_d9D4qx6Bl534dSuRoL-nU" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5rziaZf91Jyf6SavSI7yqWWicxmnNaCmq4KeR744WEtFEg/0/0'"></div>
+<div class="txt-box">
+<h3>博雅生命<em>银行</em></h3>
+<h4>
+<span>微信号：boya0907</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">关注博雅生命<em>银行</em>,即时获悉生命健康最新资讯,母婴信息及套餐优惠.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由博雅干细胞科技有限公司提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MTA2NjA4Nw==&amp;mid=210630486&amp;idx=1&amp;sn=df66e6f041021fd94bc1a79c56a6a93c&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_3">【辣话题:职场妈妈和全职妈妈互给对方的一封信~直击女人心灵最深...</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt_d9D4qx6Bl534dSuRoL-nU" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5rziaZf91Jyf6SavSI7yqWWicxmnNaCmq4KeR744WEtFEg/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/B3Vxfj3ElQPqhywdnyAj"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFtxr4wK0mggyVXVUfO5gnq-E" target="_blank" onclick="gotourl('/gzh?openid=oIWsFtxr4wK0mggyVXVUfO5gnq-E',event,this);return true;" id="sogou_vr_11002301_box_4" uigs="sogou_vr_11002301_box_4">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtxr4wK0mggyVXVUfO5gnq-E" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4FSViaGPHVoSOHYHtVvag7s9ZYIAfFA7rsUibEibUJlK8hA/0/0'"></div>
+<div class="txt-box">
+<h3>宁波<em>银行</em>招聘</h3>
+<h4>
+<span>微信号：nbcbcareer</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">主要用于宁波<em>银行</em>招聘信息的发布,进行宁波<em>银行</em>企业文化的传播及品牌推广活动.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由宁波银行股份有限公司提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MjY5Mjg1NA==&amp;mid=207065120&amp;idx=1&amp;sn=398eba105f872b87cc709f1851e1724c&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_4">世界杯决赛竞猜,宁波<em>银行</em>携礼而来!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtxr4wK0mggyVXVUfO5gnq-E" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4FSViaGPHVoSOHYHtVvag7s9ZYIAfFA7rsUibEibUJlK8hA/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/lnUsIyTEBBp7hzVAnyCy"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt7_z8i5gM_T5fhoOrIHRkcI" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt7_z8i5gM_T5fhoOrIHRkcI',event,this);return true;" id="sogou_vr_11002301_box_5" uigs="sogou_vr_11002301_box_5">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt7_z8i5gM_T5fhoOrIHRkcI" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM6FBnnjhWAk5k2Rj7v4NxrBW5EPNkt04IBRfbjBb85wNg/0/0'"></div>
+<div class="txt-box">
+<h3>贵阳民生<em>银行</em></h3>
+<h4>
+<span>微信号：dcgzcmbc</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">关注民生<em>银行</em>贵阳分行,即时收取最前沿的理财咨询、最丰富的金融活动、最优质的特惠商户,快快关注我吧!</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由中国民生银行股份有限公司贵阳分行提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MzA4MjM2NTEwOA==&amp;mid=200272014&amp;idx=1&amp;sn=ce30d63ca4955766346e72a14162465b&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_5">【贵阳民生<em>银行</em>】民生<em>银行</em>跨行通--个人、家庭财务小管家!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt7_z8i5gM_T5fhoOrIHRkcI" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM6FBnnjhWAk5k2Rj7v4NxrBW5EPNkt04IBRfbjBb85wNg/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/VEyckwDE-z6AhxHwnxlw"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt0j0qGlcoYYrKcz68ailJBU" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt0j0qGlcoYYrKcz68ailJBU',event,this);return true;" id="sogou_vr_11002301_box_6" uigs="sogou_vr_11002301_box_6">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt0j0qGlcoYYrKcz68ailJBU" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4EODcloDYfx7qoruU6B5MIgQ0qtHoAzCFda7g383vV4Q/0/0'"></div>
+<div class="txt-box">
+<h3>中信<em>银行</em>香卡</h3>
+<h4>
+<span>微信号：zxyhxk</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">即时分享专业理财知识和故事.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">来自腾讯微博认证资料:中信银行香卡官方微博 @中信银行香卡</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MTEyMDA5NQ==&amp;mid=201206102&amp;idx=1&amp;sn=0345fccd0e5b5ffdb5d5d0d2dd96f297&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_6">中信<em>银行</em>开卡送话费啦!最高可赢100元!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt0j0qGlcoYYrKcz68ailJBU" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4EODcloDYfx7qoruU6B5MIgQ0qtHoAzCFda7g383vV4Q/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/P3UsIzzErQLShy1AnyAb"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt3wfIyp9qF-52c90ngmjvwk" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt3wfIyp9qF-52c90ngmjvwk',event,this);return true;" id="sogou_vr_11002301_box_7" uigs="sogou_vr_11002301_box_7">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt3wfIyp9qF-52c90ngmjvwk" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM6mIcDMDmZhyia78dmMjKHCnoRFkibJYGwtglV7utGc9ibBg/0/0'"></div>
+<div class="txt-box">
+<h3>南安农商<em>银行</em></h3>
+<h4>
+<span>微信号：fuwantong96336</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">金融理财,吃喝玩乐,风土人情,优享生活</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由福建南安农村商业银行股份有限公司提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5NDA3MjAxNw==&amp;mid=200606818&amp;idx=1&amp;sn=b621c50c84fabe348b2aead4a977f13b&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_7">【泉州周边游】周末去哪儿!咱去摘葡萄吧!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt3wfIyp9qF-52c90ngmjvwk" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM6mIcDMDmZhyia78dmMjKHCnoRFkibJYGwtglV7utGc9ibBg/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/MXUXGAvEozXchxp7nyAV"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFtx6kGNmjhKrs3SkRziQrFbc" target="_blank" onclick="gotourl('/gzh?openid=oIWsFtx6kGNmjhKrs3SkRziQrFbc',event,this);return true;" id="sogou_vr_11002301_box_8" uigs="sogou_vr_11002301_box_8">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtx6kGNmjhKrs3SkRziQrFbc" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM69p8K4peBFw3Z7HCcJWiaBFL0OFsTEXXkHUrVsT20MVCw/0/0'"></div>
+<div class="txt-box">
+<h3>民生<em>银行</em>手机<em>银行</em></h3>
+<h4>
+<span>微信号：cmbcmbank</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">关注民生<em>银行</em>手机<em>银行</em>,即时收取民生手机<em>银行</em>服务,抢先知晓民生手机<em>银行</em>最新资讯.民生手机<em>银行</em>是专为智能手机及移动终端用户量身定制的移动金融服务平台.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">来自腾讯微博认证资料:中国民生银行U宝官方微博 @民生银行手机银行</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5NDUzODc4MA==&amp;mid=201779189&amp;idx=1&amp;sn=e59d7cfbb9a25bcf7c1b1c1299a758a8&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_8">民生手机<em>银行</em>两岁啦,精彩好礼感恩回馈!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFtx6kGNmjhKrs3SkRziQrFbc" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM69p8K4peBFw3Z7HCcJWiaBFL0OFsTEXXkHUrVsT20MVCw/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/-HV3eADEbj4RhxEbnyDY"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="wx-rb bg-blue wx-rb_v1 _item" href="/gzh?openid=oIWsFt8W8wt2h8QzbBu7VZTHYIag" target="_blank" onclick="gotourl('/gzh?openid=oIWsFt8W8wt2h8QzbBu7VZTHYIag',event,this);return true;" id="sogou_vr_11002301_box_9" uigs="sogou_vr_11002301_box_9">
+<div class="img-box">
+<span class="ico-bg"></span><span class="ico-r"></span><img style="visibility:hidden" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt8W8wt2h8QzbBu7VZTHYIag" onload="vrImgLoad(this, 'fit', 57, 57)" onerror="vrImgErr(this, '/weixin/images/account/def56-56.png')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5UqYvIXmP9Y1s8zcKcP2diaU6Z0QDn352ibJfQN4eKLreg/0/0'"></div>
+<div class="txt-box">
+<h3>稠州<em>银行</em>电子<em>银行</em></h3>
+<h4>
+<span>微信号：czcbdzyh</span>
+</h4>
+<p class="s-p3">
+<span class="sp-tit">功能介绍：</span><span class="sp-txt">浙江稠州商业<em>银行</em>始终坚持&ldquo;依托市场、跟随市场、服务市场&rdquo;的经营理念,打造&ldquo;市场<em>银行</em>&rdquo;经营特色,满足小微企业与市场商户的多元化需求,为您提供灵活、高效、便捷的随身金融服务.浙江稠州商业<em>银行</em>,来自市场,...</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">认证：</span><span class="sp-txt">该帐号服务由浙江稠州商业银行股份有限公司提供.</span>
+</p>
+<p class="s-p3">
+<span class="sp-tit">最近文章：</span><span class="sp-txt"><a target="_blank" class="blue" href="http://mp.weixin.qq.com/s?__biz=MjM5MTAyMzg2Nw==&amp;mid=200841936&amp;idx=1&amp;sn=f88afd6d4316de4c7a304fbea1c0e07f&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" id="sogou_vr_11002301_link_first_9">【客户经理日记NO.01】满足条件就放款,根本停不下来!</a><span class="hui"></span></span>
+</p>
+
+</div>
+<div class="pos-ico">
+<span></span>
+<div class="pos-box" goto="1">
+<em>
+<div>
+<img style="width:34px;height:34px" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt8W8wt2h8QzbBu7VZTHYIag" onerror="vrImgErr(this, '')" extra="err:'http://img01.store.sogou.com/net/a/04/link?appid=100520078&amp;url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM5UqYvIXmP9Y1s8zcKcP2diaU6Z0QDn352ibJfQN4eKLreg/0/0'"></div>
+</em><img width="140" height="140" alt="" src="http://img03.sogoucdn.com/app/a/100520105/G3WUmz3EiQP2hyz4nyA-"><span class="_phoneimg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+ </div></div>
+
+ 
+	
+</div>
+</div>
+<div class="right"

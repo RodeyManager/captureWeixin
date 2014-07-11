@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  div.printOut(style="text-align:center;")
+    h1= title
+    p Welcome to 搜索公众号#{title}
+  br
+  div.printOut
+    label#page-exp 关键字
+    input(type="text" class="form-control" id="searchKey" placeholder="根据关键字搜索公众号" style="width:420px;")
+    input#getGZH-btn.btn.btn-info(type='button', value='立即搜索')
+  div(style="clear:both;")
+  br
+  br
+  br
+  div#printOut.printOut
+
+
+  script(type='text/javascript', src="/javascripts/template.js")
+  script(type='text/javascript', src="/javascripts/main.js")
+

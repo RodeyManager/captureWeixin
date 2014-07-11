@@ -1,0 +1,72 @@
+*{
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+body {
+	padding: 20px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+a {
+  color: #00B7FF;
+}
+
+#page-exp{
+	float: left;
+	width: 50px;
+	height: 34px;
+	line-height: 34px;
+	font-family: 'Microsoft YaHei';
+	font-size:16px;
+	color: rgb(99, 114, 110);
+}
+#page{width: 70px; float: left;}
+#openid{ width: 350px; float: left;margin-left:10px;}
+#searchKey{ width: 420px; float: left;margin-left:10px;}
+#getData-btn{ width: 100px;float: right;margin-left:10px; }
+#getGZH-btn{ width: 100px;float: right;margin-left:10px; }
+
+.printOut{ width: 600px;margin: 0 auto; }
+ul, ul li { list-style: none; }
+.news-ul{
+	padding: 0px;
+	margin: 0 auto;
+}
+.news-ul li{ 
+	padding: 10px; 
+	margin: 0;
+	border-bottom: solid 1px #ddd;
+	position:relative;
+	overflow: hidden;
+	zoom: 1;
+	height: 120px;
+}
+.news-ul li h3{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+}
+.con-left{ width: 400px; }
+.con-left p{
+	font-size: 12px;
+	text-indent: 3px;
+}
+.con-right{ 
+	float: right; 
+	width: 120px; 
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+.con-right:after{ 
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: '.';
+}
