@@ -59,5 +59,6 @@ xml-digester（GitHub）: <a href="https://github.com/vrvolle/xml-digester" targ
 		return xml.documentElement;
 	}
 </pre>
+<img src="public/images/2014-07-11_233625.png" height="738" width="674">
 
 <img src="public/images/preview.png" height="410" width="772">
