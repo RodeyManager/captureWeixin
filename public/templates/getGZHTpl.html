@@ -1,0 +1,18 @@
+
+
+<ul class="news-ul">
+	<%if(listData){
+		for(i = 0; i < listData.length; ++i){
+			var item = listData[i];
+	%>
+	<li>
+		<h3><a href="<%= item.url %>"><%= item.title %></a></h3>
+		<div class="con-left">
+			<p><%= item.content %></p>
+		</div>
+		<div class="con-right">
+			<img src="<%= item.headimage %>" width="120" height="100">
+		</div>
+	</li>
+	<%} }%>
+</ul>

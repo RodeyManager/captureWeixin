@@ -69,32 +69,44 @@ $(document).ready(function(){
 		};
 		$.getJSON('/weixin/qagzh', postData, function(res){
 			console.log(res)
+			if(res.code == '200'){
+				printGZHtoHTML(res.body);
+			}else{
+				alert('未找到相关公众号')
+			}
 		});
 	});
 
+	//解析公众号
+	var printGZHtoHTML = function(list){
+
+		var items = [];
+		var item = {};
+		for (var i = 0; i < list['name'].length; i++) {
+			item = {
+				authotion: list['authotion'][i],
+				funcs: list['funcs'][i],
+				icon: list['icon'][i],
+				name: list['name'][i],
+				newArticle: list['newArticle'][i],
+				openid: list['openid'][i],
+				qrcode: list['qrcode'][i],
+				wxno: list['wxno'][i]
+			};
+			items.push(item);
+		};
+		
+
+		console.log(items);
+	};
 
 
-
+	//解析公众号新闻
 	var printOutHTML = function(list){
 		console.log(list)
 		var i = 0,
 			l = list.length;
 		var ulcon = '';
-		/*for(; i < l; ++i){
-			var ul = '<ul>';
-			var li = '';
-			var key, value;
-			for(var key in list[i]){
-				if(key == 'title'){
-					li += '<li style="font-size:16px;font-weight:bold;color:red;">【'+ key + '】 = （' + list[i][key] + '）</li><br>';
-				}else{
-					li += '<li style="color:#888;">【'+ key + '】 = （' + list[i][key] + '）</li><br>';
-				}
-			}
-			ul = ul + li + '</ul><hr>';
-			ulcon += ul;
-		}
-		$('#printOut').append(ulcon);*/
 
 		$('#printOut').load('/templates/getNewsTpl.html', function(source){
 			//console.log(source)

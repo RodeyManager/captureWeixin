@@ -87,7 +87,8 @@ router.get('/qagzh', function(req, res){
 			  	console.log('It\'s saved!');
 			});
     		//console.log(body);
-    		//res.send(body);
+    		rsBody = '{"code": "200", "message": "successufly", "body": '+ rsBody +'}';
+    		res.send(rsBody);
     	}else{
     		res.send('{"code": "601", "message": "很抱歉，我们未搜索到相关公众号信息 <::>  !"');
     	}
@@ -120,7 +121,27 @@ function parseBodyGZH(body){
 				.replace(/<!---*\s*(.*?)\s*---*>/gi, '')
 				.replace(/<script.*?>[\s\S]*?<\/script>/ig, '');
 	body = body.match(/(<div class="results mt7">[\s\S]*?<div class="right")/gi);
-    return body[0];
+
+	var object = {
+		name: body[0].match(/<h3>(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/h3>/gi),
+		wxno: body[0].match(/<span>微信号：([\w\d_-])*<\/span>/gi),
+		//openid: body[0].match(/\?openid=([\w\d_-])*',event,this/gi)
+		openid: body[0].match(/href="\/.*\?openid=([\w\d_-])*"/gi),
+		funcs: body[0].match(/<span class="sp-tit">\s*功能介绍.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		authotion: body[0].match(/<span class="sp-tit">\s*认证.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		newArticle: body[0].match(/<span class="sp-tit">\s*最近文章.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		qrcode: body[0].match(/<img width="140" height="140" alt="" src="(.)*"><span class="_phoneimg/gi),
+		icon: body[0].match(/<img.* src="(.)* onerror/gi)
+	};
+	console.log(object)
+
+	for(var key in object){
+		for (var i = 0; i < object[key].length; i++) {
+			//object[key][i] = object[key][i].replace(/^<(S*?)*[^>]*>.*?|<.*? \/>/gi, '');
+		};
+	}
+
+    return JSON.stringify(object);
 }
 
 function parseStrToDom(str){
