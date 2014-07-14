@@ -1,10 +1,24 @@
 $(document).ready(function(){
 
+//公众号新闻查询
+$('body').delegate('.searchQA', 'click', function(evt){
+	var target = evt.currentTarget || evt.target;
+	var openid = target.getAttribute('data-openid');
+	window.localStorage.setItem('openid', openid);
+	window.location.href = '/weixin/searchGZH';
+});
+
+function serachQA(openid){
+	var openid = openid;
+	window.localStorage.setItem('openid', openid);
+	window.location.href = '/weixin/searchGZH';
+}
+
 //获取公众号新闻数据
 	var getBtn = $('#getData-btn');
 
 	getBtn.on('click', function(evt){
-		var openid = $('#openid').val() || 'oIWsFtzP7MH_dxU6ybGOLA59u-yg';
+		var openid = window.localStorage.getItem('openid') || 'oIWsFtzP7MH_dxU6ybGOLA59u-yg';
 		var page = $('#page').val() || 1;
 
 		$('#printOut').html('').addClass('page-loading');
@@ -66,7 +80,7 @@ $(document).ready(function(){
 			query	  : searchKey,
 	        ie        : "utf8",
 	        type      : 1,
-	        _ast      : "1405088640",
+	        _ast      : new Date().getTime(),
 	        _asf      : null,
 	        w         : "01029901",
 	        cid         : null
@@ -74,7 +88,7 @@ $(document).ready(function(){
 		$.getJSON('/weixin/qagzh', postData, function(res){
 			console.log(res)
 			if(res.code == '200'){
-				//printGZHtoHTML(res.body);
+				printGZHtoHTML(res.body);
 			}else{
 				alert('未找到相关公众号')
 			}
@@ -85,7 +99,7 @@ $(document).ready(function(){
 	//解析公众号
 	var printGZHtoHTML = function(list){
 
-		var items = [];
+		/*var items = [];
 		var item = {};
 		for (var i = 0; i < list['name'].length; i++) {
 			item = {
@@ -99,11 +113,11 @@ $(document).ready(function(){
 				wxno: list['wxno'][i]
 			};
 			items.push(item);
-		};
+		};*/
 		
-		printOutHTML(items, 'getGZHTpl.html')
+		printOutHTML(list, 'getGZHTpl.html')
 
-		console.log(items);
+		console.log(list);
 	};
 
 

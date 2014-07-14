@@ -15,9 +15,13 @@ block content
   br
   br
   div#printOut.printOut
-  iframe#iframe(src="http://weixin.sogou.com/gzhjs?cb=sogou.weixin.gzhcb&openid=oIWsFt43V1xR1ex9g_dgSpo8qvwI&page=1&t=1405312837244", style="display:none;")
+  div#returnHome.return-home
+    a(href="/weixin/") 返回
 
 
   script(type='text/javascript', src="/javascripts/template.js")
   script(type='text/javascript', src="/javascripts/main.js")
+
+  script(type='text/javascript').
+    $('#openid').val(window.localStorage.getItem('openid'));
 
