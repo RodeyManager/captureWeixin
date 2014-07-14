@@ -7,6 +7,8 @@ $(document).ready(function(){
 		var openid = $('#openid').val() || 'oIWsFtzP7MH_dxU6ybGOLA59u-yg';
 		var page = $('#page').val() || 1;
 
+		$('#printOut').html('').addClass('page-loading');
+
 		var postData = {
 			openid: openid,
 			page: page
@@ -46,8 +48,9 @@ $(document).ready(function(){
 				displayList.push(bodyObj);
 			}
 
+			$('#printOut').removeClass('page-loading');
 			//输出到页面
-			printOutHTML(displayList);
+			printOutHTML(displayList, 'getNewsTpl.html');
 
 		});
 
@@ -57,6 +60,7 @@ $(document).ready(function(){
 	var searchBtn = $('#getGZH-btn');
 	searchBtn.on('click', function(evt){
 		var searchKey = $('#searchKey').val() || '新浪';
+		$('#printOut').html('').addClass('page-loading');
 
 		var postData = {
 			query	  : searchKey,
@@ -70,10 +74,11 @@ $(document).ready(function(){
 		$.getJSON('/weixin/qagzh', postData, function(res){
 			console.log(res)
 			if(res.code == '200'){
-				printGZHtoHTML(res.body);
+				//printGZHtoHTML(res.body);
 			}else{
 				alert('未找到相关公众号')
 			}
+			$('#printOut').removeClass('page-loading');
 		});
 	});
 
@@ -96,19 +101,20 @@ $(document).ready(function(){
 			items.push(item);
 		};
 		
+		printOutHTML(items, 'getGZHTpl.html')
 
 		console.log(items);
 	};
 
 
 	//解析公众号新闻
-	var printOutHTML = function(list){
+	var printOutHTML = function(list, tpl){
 		console.log(list)
 		var i = 0,
 			l = list.length;
 		var ulcon = '';
 
-		$('#printOut').load('/templates/getNewsTpl.html', function(source){
+		$('#printOut').load('/templates/' + tpl, function(source){
 			//console.log(source)
 			var render = template.compile(source);
 			var html = render({ listData: list });
@@ -126,6 +132,10 @@ $(document).ready(function(){
 			return str;
 		}
 	};
+
+    var filterStr = function(str){
+    	return str.replace(/<(S*?)*[^>]*>.*?|<.*? \/>/i, '');
+    };
 
 	var parseXML = function(data) {
 		if ( window.DOMParser ) { // Standard

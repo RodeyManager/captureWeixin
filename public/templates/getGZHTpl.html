@@ -6,12 +6,12 @@
 			var item = listData[i];
 	%>
 	<li>
-		<h3><a href="<%= item.url %>"><%= item.title %></a></h3>
+		<h3><a href="<%= item.url %>"><%= item.name %></a></h3>
 		<div class="con-left">
-			<p><%= item.content %></p>
+			<p><%= item.funcs %></p>
 		</div>
 		<div class="con-right">
-			<img src="<%= item.headimage %>" width="120" height="100">
+			<!-- <img src="<%= item.qrcode %>" width="120" height="100"> -->
 		</div>
 	</li>
 	<%} }%>

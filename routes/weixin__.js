@@ -2,7 +2,7 @@ var express = require('express');
 var fs = require('fs');
 var router = express.Router();
 
-//ç¬¬ä¸‰æ–¹æ¨¡å—
+//µÚÈı·½Ä£¿é
 var request = require('request')
     , weixin = require('../config/weixin.json')
     , select = require('xpath.js')
@@ -24,14 +24,14 @@ var baseUrl = weixin.gconfig.baseUrl;
 router.get('/qa', function(req, res) {
 	openid = req.query.openid;
 	page = req.query.page;
-	console.log("start: ã€ ");
+	console.log("start: ¡¾ ");
 	console.log('\topenid: ' + openid)
 	console.log('\tpage: ' + page)
 
   	//
   	var bodyData;
 
-  	//è·å–æºåœ°å€
+  	//»ñÈ¡Ô´µØÖ·
 	sports.forEach(function(sp, i){
 	    if(sp.work != false){
 	        console.log("\ttitle: " + sp.title);
@@ -40,18 +40,18 @@ router.get('/qa', function(req, res) {
 	        fetchURL(url, sp.type);
 	    }
 	});
-	console.log('end: ã€‘');
+	console.log('end: ¡¿');
 
-	//æŠ“å–æ•°æ®
+	//×¥È¡Êı¾İ
 	function fetchURL(url, type){
-	    //è¯·æ±‚æº
+	    //ÇëÇóÔ´
 	    var rq = request({uri: url}, function(error, response, body){
 	    	if(!error && response.statusCode == 200){
-	    		//è§£æ
+	    		//½âÎö
 	    		body = parseBody(body);
 	    		body = matchBody(body);
 	    		var rsTojosn = JSON.parse(body);
-	    		//è·å–å¯¹åº”æ•°æ®
+	    		//»ñÈ¡¶ÔÓ¦Êı¾İ
 	    		var page = rsTojosn.page;
 	    		var totalPages = rsTojosn.totalPages;
 	    		var totalItems = rsTojosn.totalItems;
@@ -66,7 +66,7 @@ router.get('/qa', function(req, res) {
 
 });
 
-//æœç´¢å…¬ä¼—å·
+//ËÑË÷¹«ÖÚºÅ
 router.get('/qagzh', function(req, res){
 	console.log(req.query);
 	var paramString = parseParams(req.query);
@@ -79,7 +79,7 @@ router.get('/qagzh', function(req, res){
 	console.log(uri);
 	var rq = request({ uri: uri, timeout: 5000 }, function(error, response, body){
 		if(!error && response.statusCode == 200){
-    		//è§£æ
+    		//½âÎö
     		var rsBody = parseBodyGZH(body);
     		//
     		fs.writeFile('./temp/message.txt', rsBody, function (err) {
@@ -90,19 +90,19 @@ router.get('/qagzh', function(req, res){
     		rsBody = '{"code": "200", "message": "successufly", "body": '+ rsBody +'}';
     		res.send(rsBody);
     	}else{
-    		res.send('{"code": "601", "message": "å¾ˆæŠ±æ­‰ï¼Œæˆ‘ä»¬æœªæœç´¢åˆ°ç›¸å…³å…¬ä¼—å·ä¿¡æ¯ <::>  !"');
+    		res.send('{"code": "601", "message": "ºÜ±§Ç¸£¬ÎÒÃÇÎ´ËÑË÷µ½Ïà¹Ø¹«ÖÚºÅĞÅÏ¢ <::>  !"');
     	}
 	});
 });
 
 
 router.get('/', function(req, res){
-	res.render('weixin', { title: 'æ–°é—»'});
+	res.render('weixin', { title: 'ĞÂÎÅ'});
 });
 
-//æœç´¢å…¬ä¼—å·
+//ËÑË÷¹«ÖÚºÅ
 router.get('/searchGZH', function(req, res){
-	res.render('searchGZH', { title: 'æœç´¢å¾®ä¿¡å…¬ä¼—å·'});
+	res.render('searchGZH', { title: 'ËÑË÷Î¢ĞÅ¹«ÖÚºÅ'});
 });
 
 function parseParams(paramsOBJ){
@@ -124,24 +124,90 @@ function parseBodyGZH(body){
 
 	var object = {
 		name: body[0].match(/<h3>(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/h3>/gi),
-		wxno: body[0].match(/<span>å¾®ä¿¡å·ï¼š([\w\d_-])*<\/span>/gi),
+		wxno: body[0].match(/<span>Î¢ĞÅºÅ£º([\w\d_-])*<\/span>/gi),
 		//openid: body[0].match(/\?openid=([\w\d_-])*',event,this/gi)
 		openid: body[0].match(/href="\/.*\?openid=([\w\d_-])*"/gi),
-		funcs: body[0].match(/<span class="sp-tit">\s*åŠŸèƒ½ä»‹ç».*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
-		authotion: body[0].match(/<span class="sp-tit">\s*è®¤è¯.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
-		newArticle: body[0].match(/<span class="sp-tit">\s*æœ€è¿‘æ–‡ç« .*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		funcs: body[0].match(/<span class="sp-tit">\s*¹¦ÄÜ½éÉÜ.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		authotion: body[0].match(/<span class="sp-tit">\s*ÈÏÖ¤.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
+		newArticle: body[0].match(/<span class="sp-tit">\s*×î½üÎÄÕÂ.*(.*<(S*?)*[^>]*>.*?|<.*? \/>)*<\/span>/gi),
 		qrcode: body[0].match(/<img width="140" height="140" alt="" src="(.)*"><span class="_phoneimg/gi),
 		icon: body[0].match(/<img.* src="(.)* onerror/gi)
 	};
 	console.log(object)
 
-	for(var key in object){
+	var items = [];
+	var item = {};
+
+	for (var i = 0; i < object['name'].length; i++) {
+		item = {
+			authotion: parseField(object['authotion'][i], 'authotion'),
+			funcs: parseField(object['funcs'][i], 'funcs'),
+			icon: parseField(object['icon'][i], 'icon'),
+			name: parseField(object['name'][i], 'name'),
+			newArticle: parseField(object['newArticle'][i], 'newArticle'),
+			openid: parseField(object['openid'][i], 'openid'),
+			qrcode: parseField(object['qrcode'][i], 'qrcode'),
+			wxno: parseField(object['wxno'][i], 'wxno')
+		};
+		items.push(item);
+	};
+
+
+	/*for(var key in object){
 		for (var i = 0; i < object[key].length; i++) {
 			//object[key][i] = object[key][i].replace(/^<(S*?)*[^>]*>.*?|<.*? \/>/gi, '');
 		};
-	}
+
+	}*/
 
     return JSON.stringify(object);
+}
+
+function parseField(string, field){
+	switch(field){
+		case 'name' || 'authotion' || 'funcs' || 'newArticle' || 'wxno':
+			return string.replace(/<(S*?)*[^>]*>.*?|<.*? \/>/gi, '');
+			break;
+		case 'icon':
+			var patt = new RegExp("src=\"(.*)\" [onload=|onerror]","gi");
+			var result = patt.exec(string);
+			console.log('string: ' + string)
+			console.log('result: ' + result)
+			if(result){
+				if(result[1]){
+					return result[1];
+				}else if(result[0]){
+					return result[0];
+				}else{
+					return null;
+				}
+			}
+			break;
+		case 'openid':
+			var patt = new RegExp("openid=(.*)\"","gi");
+			var result = patt.exec(string);
+			return (result && result[0]) ? result[0] : '';
+			break;
+		case 'wxno':
+			return string.replace(/<(S*?)*[^>]*>.*?|<.*? \/>/gi, '');
+			break;
+		case 'qrcode':
+			var patt = new RegExp("src=\"(.*)\"><span","gi");
+			var result = patt.exec(string);
+			if(result){
+				if(result[1]){
+					return result[1];
+				}else if(result[0]){
+					return result[0];
+				}else{
+					return null;
+				}
+			}
+			break;
+		default:
+			return '';
+			break;
+	}
 }
 
 function parseStrToDom(str){
