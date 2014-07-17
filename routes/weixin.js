@@ -22,7 +22,7 @@ var baseUrl = weixin.gconfig.baseUrl;
 
 /* GET users listing. */
 router.get('/qa', function(req, res) {
-	openid = req.params.openid;
+	openid = req.query.openid;
 	page = req.query.page;
 	console.log("start: 【 ");
 	console.log('\topenid: ' + openid)
@@ -55,12 +55,12 @@ router.get('/qa', function(req, res) {
 	    		//解析
 	    		body = parseBody(body);
 	    		body = matchBody(body);
-	    		var rsTojosn = JSON.parse(body);
+	    		/*var rsTojosn = JSON.parse(body);
 	    		//获取对应数据
 	    		var page = rsTojosn.page;
 	    		var totalPages = rsTojosn.totalPages;
 	    		var totalItems = rsTojosn.totalItems;
-	    		var items = rsTojosn.items;
+	    		var items = rsTojosn.items;*/
 	    		//getItems(items);
 	    		res.send(body);
 	    	}else{

@@ -19,9 +19,16 @@ block content
     a(href="/weixin/") 返回
 
 
-  script(type='text/javascript', src="/javascripts/template.js")
-  script(type='text/javascript', src="/javascripts/main.js")
-
   script(type='text/javascript').
-    $('#openid').val(window.localStorage.getItem('openid'));
+    $(document).ready(function(){
+      $('#openid').val(window.localStorage.getItem('openid'));
+      //获取公众号新闻数据
+      var getBtn = $('#getData-btn');
+      var openid = window.localStorage.getItem('openid');
+      getBtn.on('click', getGZHnews);
+      if($('#openid').val() == openid){
+        getGZHnews();
+      }
+
+    });
 

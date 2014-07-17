@@ -8,12 +8,12 @@
             "url"   : "http://weixin.sogou.com/gzhjs?cb=sogou.weixin.gzhcb&openid=oIWsFt9lcHjZzKcB5sfyRYJ6ZRY8&page=1&t=140505273220",
             "type"  : 1,
             "page"  : 1,
-            "cb"        : "sogu.weixin.gzhcb",
+            "cb"        : "sogou.weixin.gzhcb",
             "openid"    : "oIWsFt9lcHjZzKcB5sfyRYJ6ZRY8"
         }
     ],
     "gconfig": {
-        "cb"        : "sogu.weixin.gzhcb",
+        "cb"        : "sogou.weixin.gzhcb",
         "openid"    : "oIWsFt9lcHjZzKcB5sfyRYJ6ZRY8",
         "baseUrl"   : "http://weixin.sogou.com/gzhjs"
     },
